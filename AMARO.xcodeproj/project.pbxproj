@@ -7,21 +7,101 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DE7268ED1DD742A50026FBA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7268EC1DD742A50026FBA6 /* AppDelegate.swift */; };
-		DE7268EF1DD742A50026FBA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7268EE1DD742A50026FBA6 /* ViewController.swift */; };
+		37B20C6460D4E49675D9DF84 /* Pods_AMARO_HOM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C88DCDC08E61C7571907FA7 /* Pods_AMARO_HOM.framework */; };
+		7899DDDF8FED47ACB7310ECB /* Pods_AMARO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A7E8D2B30D17311B7894006 /* Pods_AMARO.framework */; };
+		AA5A8F5E25E63CCD1AA846C4 /* Pods_AMARO_DEV.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2136257AB32C0F13EE1DDF4C /* Pods_AMARO_DEV.framework */; };
+		DE4D16631DD7EA8700472F35 /* FMAMCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4D16621DD7EA8700472F35 /* FMAMCartViewController.swift */; };
+		DE4D16641DD7EA8700472F35 /* FMAMCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4D16621DD7EA8700472F35 /* FMAMCartViewController.swift */; };
+		DE4D16651DD7EA8700472F35 /* FMAMCartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4D16621DD7EA8700472F35 /* FMAMCartViewController.swift */; };
+		DE4D16681DD7EBA200472F35 /* FMAMCartCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4D16671DD7EBA200472F35 /* FMAMCartCellTableViewCell.swift */; };
+		DE4D16691DD7EBA200472F35 /* FMAMCartCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4D16671DD7EBA200472F35 /* FMAMCartCellTableViewCell.swift */; };
+		DE4D166A1DD7EBA200472F35 /* FMAMCartCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4D16671DD7EBA200472F35 /* FMAMCartCellTableViewCell.swift */; };
 		DE7268F21DD742A50026FBA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE7268F01DD742A50026FBA6 /* Main.storyboard */; };
 		DE7268F41DD742A50026FBA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE7268F31DD742A50026FBA6 /* Assets.xcassets */; };
 		DE7268F71DD742A50026FBA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE7268F51DD742A50026FBA6 /* LaunchScreen.storyboard */; };
+		DE72692C1DD744160026FBA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE72692B1DD744160026FBA6 /* AppDelegate.swift */; };
+		DE72692D1DD744160026FBA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE72692B1DD744160026FBA6 /* AppDelegate.swift */; };
+		DE72692E1DD744160026FBA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE72692B1DD744160026FBA6 /* AppDelegate.swift */; };
+		DE7269361DD7445A0026FBA6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE7269321DD7445A0026FBA6 /* Info.plist */; };
+		DE7269371DD7445A0026FBA6 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE7269321DD7445A0026FBA6 /* Info.plist */; };
+		DE7269381DD7445A0026FBA6 /* InfoDEV.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE7269331DD7445A0026FBA6 /* InfoDEV.plist */; };
+		DE72693A1DD7445A0026FBA6 /* InfoDEV.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE7269331DD7445A0026FBA6 /* InfoDEV.plist */; };
+		DE72693B1DD7445A0026FBA6 /* InfoHOM.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE7269341DD7445A0026FBA6 /* InfoHOM.plist */; };
+		DE72693C1DD7445A0026FBA6 /* InfoHOM.plist in Resources */ = {isa = PBXBuildFile; fileRef = DE7269341DD7445A0026FBA6 /* InfoHOM.plist */; };
+		DE7269441DD74D980026FBA6 /* FMAMHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7269431DD74D980026FBA6 /* FMAMHomeViewController.swift */; };
+		DE7269451DD74D980026FBA6 /* FMAMHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7269431DD74D980026FBA6 /* FMAMHomeViewController.swift */; };
+		DE7269461DD74D980026FBA6 /* FMAMHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7269431DD74D980026FBA6 /* FMAMHomeViewController.swift */; };
+		DE7269491DD74DFE0026FBA6 /* FMBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7269481DD74DFE0026FBA6 /* FMBaseViewController.swift */; };
+		DE72694A1DD74DFE0026FBA6 /* FMBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7269481DD74DFE0026FBA6 /* FMBaseViewController.swift */; };
+		DE72694B1DD74DFE0026FBA6 /* FMBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7269481DD74DFE0026FBA6 /* FMBaseViewController.swift */; };
+		DE7269511DD751B70026FBA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE7268F01DD742A50026FBA6 /* Main.storyboard */; };
+		DE7269521DD751B70026FBA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE7268F31DD742A50026FBA6 /* Assets.xcassets */; };
+		DE7269531DD751B70026FBA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE7268F51DD742A50026FBA6 /* LaunchScreen.storyboard */; };
+		DE7269571DD7523C0026FBA6 /* FMAMProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7269561DD7523C0026FBA6 /* FMAMProducts.swift */; };
+		DE7269581DD7523C0026FBA6 /* FMAMProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7269561DD7523C0026FBA6 /* FMAMProducts.swift */; };
+		DE7269591DD7523C0026FBA6 /* FMAMProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7269561DD7523C0026FBA6 /* FMAMProducts.swift */; };
+		DE72695B1DD7542E0026FBA6 /* FMAMSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE72695A1DD7542E0026FBA6 /* FMAMSizes.swift */; };
+		DE72695C1DD7542E0026FBA6 /* FMAMSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE72695A1DD7542E0026FBA6 /* FMAMSizes.swift */; };
+		DE72695D1DD7542E0026FBA6 /* FMAMSizes.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE72695A1DD7542E0026FBA6 /* FMAMSizes.swift */; };
+		DE7269601DD75E370026FBA6 /* FMAMParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE72695F1DD75E370026FBA6 /* FMAMParser.swift */; };
+		DE7269611DD75E370026FBA6 /* FMAMParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE72695F1DD75E370026FBA6 /* FMAMParser.swift */; };
+		DE7269621DD75E370026FBA6 /* FMAMParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE72695F1DD75E370026FBA6 /* FMAMParser.swift */; };
+		DE7269641DD75FB70026FBA6 /* products.json in Resources */ = {isa = PBXBuildFile; fileRef = DE7269631DD75FB70026FBA6 /* products.json */; };
+		DE7269651DD75FB70026FBA6 /* products.json in Resources */ = {isa = PBXBuildFile; fileRef = DE7269631DD75FB70026FBA6 /* products.json */; };
+		DE7269661DD75FB70026FBA6 /* products.json in Resources */ = {isa = PBXBuildFile; fileRef = DE7269631DD75FB70026FBA6 /* products.json */; };
+		DE7269981DD79F3C0026FBA6 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE7269971DD79F3C0026FBA6 /* CoreData.framework */; };
+		DE7269A31DD7A6910026FBA6 /* FMAMProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7269A21DD7A6910026FBA6 /* FMAMProductViewController.swift */; };
+		DE7269A41DD7A6910026FBA6 /* FMAMProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7269A21DD7A6910026FBA6 /* FMAMProductViewController.swift */; };
+		DE7269A51DD7A6910026FBA6 /* FMAMProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7269A21DD7A6910026FBA6 /* FMAMProductViewController.swift */; };
+		DE7269AD1DD7A7C20026FBA6 /* FMAMProductCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7269AC1DD7A7C20026FBA6 /* FMAMProductCellTableViewCell.swift */; };
+		DE7269AE1DD7A7C20026FBA6 /* FMAMProductCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7269AC1DD7A7C20026FBA6 /* FMAMProductCellTableViewCell.swift */; };
+		DE7269AF1DD7A7C20026FBA6 /* FMAMProductCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE7269AC1DD7A7C20026FBA6 /* FMAMProductCellTableViewCell.swift */; };
+		DED19B7F1DD7FF2400FB0E30 /* FMAMProductManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED19B7E1DD7FF2400FB0E30 /* FMAMProductManager.swift */; };
+		DED19B801DD7FF2400FB0E30 /* FMAMProductManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED19B7E1DD7FF2400FB0E30 /* FMAMProductManager.swift */; };
+		DED19B811DD7FF2400FB0E30 /* FMAMProductManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED19B7E1DD7FF2400FB0E30 /* FMAMProductManager.swift */; };
+		DED19B821DD80E8F00FB0E30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE7268F01DD742A50026FBA6 /* Main.storyboard */; };
+		DED19B831DD80E8F00FB0E30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE7268F31DD742A50026FBA6 /* Assets.xcassets */; };
+		DED19B841DD80E9500FB0E30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE7268F51DD742A50026FBA6 /* LaunchScreen.storyboard */; };
+		DED19B851DD80EA200FB0E30 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE7269971DD79F3C0026FBA6 /* CoreData.framework */; };
+		DED19B861DD80EA800FB0E30 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE7269971DD79F3C0026FBA6 /* CoreData.framework */; };
+		DED19B881DD80F2F00FB0E30 /* FMAMCartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED19B871DD80F2F00FB0E30 /* FMAMCartManager.swift */; };
+		DED19B891DD80F2F00FB0E30 /* FMAMCartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED19B871DD80F2F00FB0E30 /* FMAMCartManager.swift */; };
+		DED19B8A1DD80F2F00FB0E30 /* FMAMCartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DED19B871DD80F2F00FB0E30 /* FMAMCartManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A7E8D2B30D17311B7894006 /* Pods_AMARO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMARO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2136257AB32C0F13EE1DDF4C /* Pods_AMARO_DEV.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMARO_DEV.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		21B87DDCE779FB68F7107552 /* Pods-AMARO HOM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMARO HOM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AMARO HOM/Pods-AMARO HOM.debug.xcconfig"; sourceTree = "<group>"; };
+		2A0BF03FD88EF116AF3009B2 /* Pods-AMARO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMARO.release.xcconfig"; path = "Pods/Target Support Files/Pods-AMARO/Pods-AMARO.release.xcconfig"; sourceTree = "<group>"; };
+		376B2A81884C94F92AF36A5F /* Pods-AMARO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMARO.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AMARO/Pods-AMARO.debug.xcconfig"; sourceTree = "<group>"; };
+		49A167631781E4275AF4CCCC /* Pods-AMARO DEV.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMARO DEV.release.xcconfig"; path = "Pods/Target Support Files/Pods-AMARO DEV/Pods-AMARO DEV.release.xcconfig"; sourceTree = "<group>"; };
+		6C88DCDC08E61C7571907FA7 /* Pods_AMARO_HOM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMARO_HOM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB106A4FA9BDFF20F14FC097 /* Pods-AMARO DEV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMARO DEV.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AMARO DEV/Pods-AMARO DEV.debug.xcconfig"; sourceTree = "<group>"; };
+		DE4D16621DD7EA8700472F35 /* FMAMCartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMAMCartViewController.swift; sourceTree = "<group>"; };
+		DE4D16671DD7EBA200472F35 /* FMAMCartCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMAMCartCellTableViewCell.swift; sourceTree = "<group>"; };
 		DE7268E91DD742A50026FBA6 /* AMARO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AMARO.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE7268EC1DD742A50026FBA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DE7268EE1DD742A50026FBA6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DE7268F11DD742A50026FBA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE7268F31DD742A50026FBA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE7268F61DD742A50026FBA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		DE7268F81DD742A50026FBA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE7269021DD7437D0026FBA6 /* AMARO DEV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AMARO DEV.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE7269181DD743900026FBA6 /* AMARO HOM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AMARO HOM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE72692B1DD744160026FBA6 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE7269321DD7445A0026FBA6 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "Supporting Files/Info.plist"; sourceTree = "<group>"; };
+		DE7269331DD7445A0026FBA6 /* InfoDEV.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = InfoDEV.plist; path = "Supporting Files/InfoDEV.plist"; sourceTree = "<group>"; };
+		DE7269341DD7445A0026FBA6 /* InfoHOM.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = InfoHOM.plist; path = "Supporting Files/InfoHOM.plist"; sourceTree = "<group>"; };
+		DE7269431DD74D980026FBA6 /* FMAMHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMAMHomeViewController.swift; sourceTree = "<group>"; };
+		DE7269481DD74DFE0026FBA6 /* FMBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMBaseViewController.swift; sourceTree = "<group>"; };
+		DE7269561DD7523C0026FBA6 /* FMAMProducts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMAMProducts.swift; sourceTree = "<group>"; };
+		DE72695A1DD7542E0026FBA6 /* FMAMSizes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMAMSizes.swift; sourceTree = "<group>"; };
+		DE72695F1DD75E370026FBA6 /* FMAMParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMAMParser.swift; sourceTree = "<group>"; };
+		DE7269631DD75FB70026FBA6 /* products.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = products.json; path = AMARO/products.json; sourceTree = SOURCE_ROOT; };
+		DE7269971DD79F3C0026FBA6 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DE7269A21DD7A6910026FBA6 /* FMAMProductViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMAMProductViewController.swift; sourceTree = "<group>"; };
+		DE7269AC1DD7A7C20026FBA6 /* FMAMProductCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMAMProductCellTableViewCell.swift; sourceTree = "<group>"; };
+		DED19B7E1DD7FF2400FB0E30 /* FMAMProductManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMAMProductManager.swift; sourceTree = "<group>"; };
+		DED19B871DD80F2F00FB0E30 /* FMAMCartManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FMAMCartManager.swift; sourceTree = "<group>"; };
+		F8BB47089BD578F95FC6AD76 /* Pods-AMARO HOM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMARO HOM.release.xcconfig"; path = "Pods/Target Support Files/Pods-AMARO HOM/Pods-AMARO HOM.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +109,79 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DED19B851DD80EA200FB0E30 /* CoreData.framework in Frameworks */,
+				7899DDDF8FED47ACB7310ECB /* Pods_AMARO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE7268FF1DD7437D0026FBA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE7269981DD79F3C0026FBA6 /* CoreData.framework in Frameworks */,
+				AA5A8F5E25E63CCD1AA846C4 /* Pods_AMARO_DEV.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE7269151DD743900026FBA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED19B861DD80EA800FB0E30 /* CoreData.framework in Frameworks */,
+				37B20C6460D4E49675D9DF84 /* Pods_AMARO_HOM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E516E8E36E7662CDCA20256 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE7269971DD79F3C0026FBA6 /* CoreData.framework */,
+				1A7E8D2B30D17311B7894006 /* Pods_AMARO.framework */,
+				2136257AB32C0F13EE1DDF4C /* Pods_AMARO_DEV.framework */,
+				6C88DCDC08E61C7571907FA7 /* Pods_AMARO_HOM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB5C19B6955C7706D495B32C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				376B2A81884C94F92AF36A5F /* Pods-AMARO.debug.xcconfig */,
+				2A0BF03FD88EF116AF3009B2 /* Pods-AMARO.release.xcconfig */,
+				CB106A4FA9BDFF20F14FC097 /* Pods-AMARO DEV.debug.xcconfig */,
+				49A167631781E4275AF4CCCC /* Pods-AMARO DEV.release.xcconfig */,
+				21B87DDCE779FB68F7107552 /* Pods-AMARO HOM.debug.xcconfig */,
+				F8BB47089BD578F95FC6AD76 /* Pods-AMARO HOM.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DE4D16611DD7EA6500472F35 /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				DE4D16621DD7EA8700472F35 /* FMAMCartViewController.swift */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		DE4D16661DD7EB6D00472F35 /* Cart Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DE4D16671DD7EBA200472F35 /* FMAMCartCellTableViewCell.swift */,
+			);
+			path = "Cart Cell";
+			sourceTree = "<group>";
+		};
 		DE7268E01DD742A50026FBA6 = {
 			isa = PBXGroup;
 			children = (
 				DE7268EB1DD742A50026FBA6 /* AMARO */,
 				DE7268EA1DD742A50026FBA6 /* Products */,
+				CB5C19B6955C7706D495B32C /* Pods */,
+				1E516E8E36E7662CDCA20256 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +189,8 @@
 			isa = PBXGroup;
 			children = (
 				DE7268E91DD742A50026FBA6 /* AMARO.app */,
+				DE7269021DD7437D0026FBA6 /* AMARO DEV.app */,
+				DE7269181DD743900026FBA6 /* AMARO HOM.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,14 +198,163 @@
 		DE7268EB1DD742A50026FBA6 /* AMARO */ = {
 			isa = PBXGroup;
 			children = (
-				DE7268EC1DD742A50026FBA6 /* AppDelegate.swift */,
-				DE7268EE1DD742A50026FBA6 /* ViewController.swift */,
+				DE72693E1DD744730026FBA6 /* MVC */,
+				DE72692A1DD743F80026FBA6 /* AppDelegate */,
+				DE7269311DD744470026FBA6 /* Supporting Files */,
+				DE72692F1DD7441F0026FBA6 /* Design */,
+			);
+			path = AMARO;
+			sourceTree = "<group>";
+		};
+		DE72692A1DD743F80026FBA6 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				DE72692B1DD744160026FBA6 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		DE72692F1DD7441F0026FBA6 /* Design */ = {
+			isa = PBXGroup;
+			children = (
 				DE7268F01DD742A50026FBA6 /* Main.storyboard */,
 				DE7268F31DD742A50026FBA6 /* Assets.xcassets */,
 				DE7268F51DD742A50026FBA6 /* LaunchScreen.storyboard */,
-				DE7268F81DD742A50026FBA6 /* Info.plist */,
 			);
-			path = AMARO;
+			name = Design;
+			sourceTree = "<group>";
+		};
+		DE7269311DD744470026FBA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE7269321DD7445A0026FBA6 /* Info.plist */,
+				DE7269331DD7445A0026FBA6 /* InfoDEV.plist */,
+				DE7269341DD7445A0026FBA6 /* InfoHOM.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DE72693E1DD744730026FBA6 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				DE7269411DD744B20026FBA6 /* Controller */,
+				DE7269401DD744A80026FBA6 /* View */,
+				DE72693F1DD7449E0026FBA6 /* Model */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		DE72693F1DD7449E0026FBA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DED19B7D1DD7FEFF00FB0E30 /* Product Manager */,
+				DE72695E1DD75E140026FBA6 /* Parser */,
+				DE7269551DD752110026FBA6 /* Sizes */,
+				DE7269541DD751FD0026FBA6 /* Products */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DE7269401DD744A80026FBA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DE72694C1DD750750026FBA6 /* UITableViewCell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DE7269411DD744B20026FBA6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DE4D16611DD7EA6500472F35 /* Cart */,
+				DE7269A11DD7A6590026FBA6 /* Product */,
+				DE7269421DD74D6F0026FBA6 /* Home */,
+				DE7269471DD74DE70026FBA6 /* Base */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DE7269421DD74D6F0026FBA6 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DE7269431DD74D980026FBA6 /* FMAMHomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DE7269471DD74DE70026FBA6 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DE7269481DD74DFE0026FBA6 /* FMBaseViewController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		DE72694C1DD750750026FBA6 /* UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				DE4D16661DD7EB6D00472F35 /* Cart Cell */,
+				DE7269AB1DD7A7900026FBA6 /* Product Cell */,
+				DE7269A61DD7A76D0026FBA6 /* Home Cell */,
+			);
+			path = UITableViewCell;
+			sourceTree = "<group>";
+		};
+		DE7269541DD751FD0026FBA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE7269561DD7523C0026FBA6 /* FMAMProducts.swift */,
+			);
+			path = Products;
+			sourceTree = "<group>";
+		};
+		DE7269551DD752110026FBA6 /* Sizes */ = {
+			isa = PBXGroup;
+			children = (
+				DE72695A1DD7542E0026FBA6 /* FMAMSizes.swift */,
+			);
+			path = Sizes;
+			sourceTree = "<group>";
+		};
+		DE72695E1DD75E140026FBA6 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+				DE7269631DD75FB70026FBA6 /* products.json */,
+				DE72695F1DD75E370026FBA6 /* FMAMParser.swift */,
+			);
+			path = Parser;
+			sourceTree = "<group>";
+		};
+		DE7269A11DD7A6590026FBA6 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				DE7269A21DD7A6910026FBA6 /* FMAMProductViewController.swift */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		DE7269A61DD7A76D0026FBA6 /* Home Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DED19B871DD80F2F00FB0E30 /* FMAMCartManager.swift */,
+			);
+			path = "Home Cell";
+			sourceTree = "<group>";
+		};
+		DE7269AB1DD7A7900026FBA6 /* Product Cell */ = {
+			isa = PBXGroup;
+			children = (
+				DE7269AC1DD7A7C20026FBA6 /* FMAMProductCellTableViewCell.swift */,
+			);
+			path = "Product Cell";
+			sourceTree = "<group>";
+		};
+		DED19B7D1DD7FEFF00FB0E30 /* Product Manager */ = {
+			isa = PBXGroup;
+			children = (
+				DED19B7E1DD7FF2400FB0E30 /* FMAMProductManager.swift */,
+			);
+			path = "Product Manager";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +364,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DE7268FB1DD742A50026FBA6 /* Build configuration list for PBXNativeTarget "AMARO" */;
 			buildPhases = (
+				9FC193F013157B334D235250 /* [CP] Check Pods Manifest.lock */,
 				DE7268E51DD742A50026FBA6 /* Sources */,
 				DE7268E61DD742A50026FBA6 /* Frameworks */,
 				DE7268E71DD742A50026FBA6 /* Resources */,
+				8D32A1795B76F9EB0E0AC529 /* [CP] Embed Pods Frameworks */,
+				681AEC325812E583B16AEC1D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -82,6 +378,46 @@
 			name = AMARO;
 			productName = AMARO;
 			productReference = DE7268E91DD742A50026FBA6 /* AMARO.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE7269011DD7437D0026FBA6 /* AMARO DEV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE7269111DD7437E0026FBA6 /* Build configuration list for PBXNativeTarget "AMARO DEV" */;
+			buildPhases = (
+				B1ACC4B97E31FDCD83C7B03C /* [CP] Check Pods Manifest.lock */,
+				DE7268FE1DD7437D0026FBA6 /* Sources */,
+				DE7268FF1DD7437D0026FBA6 /* Frameworks */,
+				DE7269001DD7437D0026FBA6 /* Resources */,
+				41E3C5715B1FE41C850252BD /* [CP] Embed Pods Frameworks */,
+				1E11214490FE537D04928045 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AMARO DEV";
+			productName = "AMARO DEV";
+			productReference = DE7269021DD7437D0026FBA6 /* AMARO DEV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE7269171DD743900026FBA6 /* AMARO HOM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE7269271DD743900026FBA6 /* Build configuration list for PBXNativeTarget "AMARO HOM" */;
+			buildPhases = (
+				7DB32A7F965A91E32B7B1A31 /* [CP] Check Pods Manifest.lock */,
+				DE7269141DD743900026FBA6 /* Sources */,
+				DE7269151DD743900026FBA6 /* Frameworks */,
+				DE7269161DD743900026FBA6 /* Resources */,
+				8F828B888005E98F560F5A1C /* [CP] Embed Pods Frameworks */,
+				F36CBAF3EAFEEBE5B15271C7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AMARO HOM";
+			productName = "AMARO HOM";
+			productReference = DE7269181DD743900026FBA6 /* AMARO HOM.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +432,18 @@
 				TargetAttributes = {
 					DE7268E81DD742A50026FBA6 = {
 						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Automatic;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Manual;
+					};
+					DE7269011DD7437D0026FBA6 = {
+						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Manual;
+					};
+					DE7269171DD743900026FBA6 = {
+						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -114,6 +461,8 @@
 			projectRoot = "";
 			targets = (
 				DE7268E81DD742A50026FBA6 /* AMARO */,
+				DE7269011DD7437D0026FBA6 /* AMARO DEV */,
+				DE7269171DD743900026FBA6 /* AMARO HOM */,
 			);
 		};
 /* End PBXProject section */
@@ -124,20 +473,235 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE7268F71DD742A50026FBA6 /* LaunchScreen.storyboard in Resources */,
+				DE7269381DD7445A0026FBA6 /* InfoDEV.plist in Resources */,
+				DE72693B1DD7445A0026FBA6 /* InfoHOM.plist in Resources */,
+				DE7269641DD75FB70026FBA6 /* products.json in Resources */,
 				DE7268F41DD742A50026FBA6 /* Assets.xcassets in Resources */,
 				DE7268F21DD742A50026FBA6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DE7269001DD7437D0026FBA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE7269511DD751B70026FBA6 /* Main.storyboard in Resources */,
+				DE7269521DD751B70026FBA6 /* Assets.xcassets in Resources */,
+				DE7269531DD751B70026FBA6 /* LaunchScreen.storyboard in Resources */,
+				DE7269651DD75FB70026FBA6 /* products.json in Resources */,
+				DE72693C1DD7445A0026FBA6 /* InfoHOM.plist in Resources */,
+				DE7269361DD7445A0026FBA6 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE7269161DD743900026FBA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED19B841DD80E9500FB0E30 /* LaunchScreen.storyboard in Resources */,
+				DED19B821DD80E8F00FB0E30 /* Main.storyboard in Resources */,
+				DED19B831DD80E8F00FB0E30 /* Assets.xcassets in Resources */,
+				DE7269661DD75FB70026FBA6 /* products.json in Resources */,
+				DE72693A1DD7445A0026FBA6 /* InfoDEV.plist in Resources */,
+				DE7269371DD7445A0026FBA6 /* Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1E11214490FE537D04928045 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AMARO DEV/Pods-AMARO DEV-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		41E3C5715B1FE41C850252BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AMARO DEV/Pods-AMARO DEV-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		681AEC325812E583B16AEC1D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AMARO/Pods-AMARO-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7DB32A7F965A91E32B7B1A31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8D32A1795B76F9EB0E0AC529 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AMARO/Pods-AMARO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F828B888005E98F560F5A1C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AMARO HOM/Pods-AMARO HOM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FC193F013157B334D235250 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B1ACC4B97E31FDCD83C7B03C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F36CBAF3EAFEEBE5B15271C7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AMARO HOM/Pods-AMARO HOM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DE7268E51DD742A50026FBA6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE7268EF1DD742A50026FBA6 /* ViewController.swift in Sources */,
-				DE7268ED1DD742A50026FBA6 /* AppDelegate.swift in Sources */,
+				DED19B7F1DD7FF2400FB0E30 /* FMAMProductManager.swift in Sources */,
+				DE7269571DD7523C0026FBA6 /* FMAMProducts.swift in Sources */,
+				DE4D16681DD7EBA200472F35 /* FMAMCartCellTableViewCell.swift in Sources */,
+				DE7269491DD74DFE0026FBA6 /* FMBaseViewController.swift in Sources */,
+				DE7269AD1DD7A7C20026FBA6 /* FMAMProductCellTableViewCell.swift in Sources */,
+				DE7269A31DD7A6910026FBA6 /* FMAMProductViewController.swift in Sources */,
+				DE4D16631DD7EA8700472F35 /* FMAMCartViewController.swift in Sources */,
+				DE7269441DD74D980026FBA6 /* FMAMHomeViewController.swift in Sources */,
+				DE7269601DD75E370026FBA6 /* FMAMParser.swift in Sources */,
+				DE72695B1DD7542E0026FBA6 /* FMAMSizes.swift in Sources */,
+				DED19B881DD80F2F00FB0E30 /* FMAMCartManager.swift in Sources */,
+				DE72692C1DD744160026FBA6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE7268FE1DD7437D0026FBA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED19B801DD7FF2400FB0E30 /* FMAMProductManager.swift in Sources */,
+				DE7269581DD7523C0026FBA6 /* FMAMProducts.swift in Sources */,
+				DE4D16691DD7EBA200472F35 /* FMAMCartCellTableViewCell.swift in Sources */,
+				DE72694A1DD74DFE0026FBA6 /* FMBaseViewController.swift in Sources */,
+				DE7269AE1DD7A7C20026FBA6 /* FMAMProductCellTableViewCell.swift in Sources */,
+				DE7269A41DD7A6910026FBA6 /* FMAMProductViewController.swift in Sources */,
+				DE4D16641DD7EA8700472F35 /* FMAMCartViewController.swift in Sources */,
+				DE7269451DD74D980026FBA6 /* FMAMHomeViewController.swift in Sources */,
+				DE7269611DD75E370026FBA6 /* FMAMParser.swift in Sources */,
+				DE72695C1DD7542E0026FBA6 /* FMAMSizes.swift in Sources */,
+				DED19B891DD80F2F00FB0E30 /* FMAMCartManager.swift in Sources */,
+				DE72692D1DD744160026FBA6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE7269141DD743900026FBA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED19B811DD7FF2400FB0E30 /* FMAMProductManager.swift in Sources */,
+				DE7269591DD7523C0026FBA6 /* FMAMProducts.swift in Sources */,
+				DE4D166A1DD7EBA200472F35 /* FMAMCartCellTableViewCell.swift in Sources */,
+				DE72694B1DD74DFE0026FBA6 /* FMBaseViewController.swift in Sources */,
+				DE7269AF1DD7A7C20026FBA6 /* FMAMProductCellTableViewCell.swift in Sources */,
+				DE7269A51DD7A6910026FBA6 /* FMAMProductViewController.swift in Sources */,
+				DE4D16651DD7EA8700472F35 /* FMAMCartViewController.swift in Sources */,
+				DE7269461DD74D980026FBA6 /* FMAMHomeViewController.swift in Sources */,
+				DE7269621DD75E370026FBA6 /* FMAMParser.swift in Sources */,
+				DE72695D1DD7542E0026FBA6 /* FMAMSizes.swift in Sources */,
+				DED19B8A1DD80F2F00FB0E30 /* FMAMCartManager.swift in Sources */,
+				DE72692E1DD744160026FBA6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -181,6 +745,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -230,6 +795,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -256,23 +822,100 @@
 		};
 		DE7268FC1DD742A50026FBA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 376B2A81884C94F92AF36A5F /* Pods-AMARO.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = AMARO/Info.plist;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/AMARO/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.fabriciomasiero.AMARO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		DE7268FD1DD742A50026FBA6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A0BF03FD88EF116AF3009B2 /* Pods-AMARO.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = AMARO/Info.plist;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/AMARO/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = br.com.fabriciomasiero.AMARO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DE7269121DD7437E0026FBA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB106A4FA9BDFF20F14FC097 /* Pods-AMARO DEV.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/AMARO/Supporting Files/InfoDEV.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.fabriciomasiero.AMARO-DEV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DE7269131DD7437E0026FBA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49A167631781E4275AF4CCCC /* Pods-AMARO DEV.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/AMARO/Supporting Files/InfoDEV.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.fabriciomasiero.AMARO-DEV";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		DE7269281DD743900026FBA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 21B87DDCE779FB68F7107552 /* Pods-AMARO HOM.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/AMARO/Supporting Files/InfoHOM.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.fabriciomasiero.AMARO-HOM";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		DE7269291DD743900026FBA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8BB47089BD578F95FC6AD76 /* Pods-AMARO HOM.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/AMARO/Supporting Files/InfoHOM.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.fabriciomasiero.AMARO-HOM";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -297,6 +940,25 @@
 				DE7268FD1DD742A50026FBA6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE7269111DD7437E0026FBA6 /* Build configuration list for PBXNativeTarget "AMARO DEV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE7269121DD7437E0026FBA6 /* Debug */,
+				DE7269131DD7437E0026FBA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE7269271DD743900026FBA6 /* Build configuration list for PBXNativeTarget "AMARO HOM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE7269281DD743900026FBA6 /* Debug */,
+				DE7269291DD743900026FBA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

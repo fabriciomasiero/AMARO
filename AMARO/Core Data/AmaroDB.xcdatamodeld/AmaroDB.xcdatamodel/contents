@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11542" systemVersion="16B2555" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Cart" representedClassName="Cart" syncable="YES" codeGenerationType="class">
+        <attribute name="actualPrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="codeColor" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="color" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="colorSlug" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="discountPercentage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="installments" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="onSale" optional="YES" attributeType="Boolean" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="pictureUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="quantity" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="rawPrice" optional="YES" attributeType="Float" minValueString="0" defaultValueString="0.0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="regularPrice" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="size" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="style" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="productSizes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Sizes" inverseName="product" inverseEntity="Sizes" syncable="YES"/>
+    </entity>
+    <entity name="Sizes" representedClassName="Sizes" syncable="YES" codeGenerationType="class">
+        <attribute name="size" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="product" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Cart" inverseName="productSizes" inverseEntity="Cart" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Cart" positionX="117" positionY="-18" width="128" height="268"/>
+        <element name="Sizes" positionX="367" positionY="36" width="128" height="73"/>
+    </elements>
+</model>
